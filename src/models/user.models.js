@@ -1,11 +1,11 @@
 import mongoose, { Schema } from "mongoose";
 import jwt from "jsonwebtoken";
-import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
 
 const userSchema = new Schema(
   {
     username: {
-      type: string,
+      type: String,
       required: true,
       unique: true,
       lowercase: true,
@@ -14,7 +14,7 @@ const userSchema = new Schema(
     },
 
     email: {
-      type: string,
+      type: String,
       required: true,
       unique: true,
       lowercase: true,
@@ -22,7 +22,7 @@ const userSchema = new Schema(
     },
 
     fullName: {
-      type: string,
+      type: String,
       required: true,
       lowercase: true,
       trim: true,
@@ -30,11 +30,11 @@ const userSchema = new Schema(
     },
 
     avatar: {
-      type: string, /// cloundinary url
+      type: String, /// cloundinary url
       required: true,
     },
     coverImage: {
-      type: string, /// cloundinary url
+      type: String, /// cloundinary url
     },
 
     watchHistory: {
@@ -43,11 +43,11 @@ const userSchema = new Schema(
     },
 
     password: {
-      type: string,
+      type: String,
       required: [true, "password is required"],
     },
     refreshToken: {
-      type: string,
+      type: String,
     },
   },
   {
@@ -61,7 +61,7 @@ userSchema.pre("save", async function (next) {
   if (!this.isModified("password")) {
     return next();
   }
-  this.password = bcrypt.hash(this.password, 10);
+  this.password = await bcrypt.hash(this.password, 10);
   next();
 });
 

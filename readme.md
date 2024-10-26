@@ -9,3 +9,4 @@ day one :
 5. file upload 
 6. crash crouse HTTP
 7. Guid for Router and controller with debugging 
+8. Register controller 
