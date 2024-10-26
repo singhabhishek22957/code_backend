@@ -8,3 +8,4 @@ day one :
 4. user and  video model with hooks and JWT;     
 5. file upload 
 6. crash crouse HTTP
+7. Guid for Router and controller with debugging 
