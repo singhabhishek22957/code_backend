@@ -7,3 +7,4 @@ day one :
 3. Custom api response error handling 
 4. user and  video model with hooks and JWT;     
 5. file upload 
+6. crash crouse HTTP

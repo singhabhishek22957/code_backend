@@ -1,0 +1,105 @@
+HTTP: hyper text transfer protocol 
+URL = unified resources locater  || URI
+
+What are HTTP headers . 
+metadata => key-value set along with request & response 
+
+-> coaching , authentication , manage state 
+          x-prefix -> 2012(x-deprecated)
+
+-> caching , compression , content negotiation
+-> cookies , session management , CSRF protection
+-> CORS , content security policy , HTTP/2
+
+
+
+
+-> request headers -> from client 
+-> response headers -> from server
+->representation headers -> encoding /compression 
+->payload headers -> data
+
+
+
+most common headers 
+-> accept : application / json
+-> user -Agent
+-> authorization 
+-> content -type
+->cookie 
+-> cache -content 
+
+
+
+****Cors****
+->Access-content-Allow-origin 
+->Access-Control-Allow-Methods
+->Access-Control-Allow-credentials
+
+
+****HTTP Methods****
+
+basic set of operations that can be used to intract with server 
+
+->GET : retrieve a resource 
+->POST : create a resource
+->PUT : update a resource
+->DELETE : delete a resource
+->HEAD : retrieve metadata of a resource
+->OPTIONS : describe the supported methods of a resource
+->PATCH : update a resource partially
+->CONNECT : establish a tunnel to the server
+->TRACE : echo back the request
+->COPY : copy a resource
+
+
+->LINK : establish a link between resources
+->UNLINK : remove a link between resources
+->MKCOL : create a new collection
+->MOVE : move a resource
+->PROPFIND : retrieve a list of resources
+->PROPPATCH : update the properties of a resource
+->MKACTIVITY : create a new activity
+->CHECKOUT : check out a resource
+->MERGE : merge two resources
+->M-SEARCH : search for resources
+->LOCK : lock a resource
+->UNLOCK : unlock a resource
+->REPORT : retrieve a report of a resource
+->PATCH : update a resource partially
+->SEARCH : search for resources
+->PATCH : update a resource partially
+
+
+HTTP statas code 
+
+-> 1**  : informational 
+-> 2** : success
+-> 3** : redirection
+-> 4** : client error
+-> 5** : server error
+
+
+100 - continue 
+101 - switching protocols
+102 - processing 
+200 - ok
+201 - created
+202 - accepted
+307 - temparary redirection
+308 - permanent redirection
+400 - bad request
+401 - unauthorized
+402 - payment required
+403 - forbidden
+404 - not found
+405 - method not allowed
+500 - Internal server error 
+504 - gateway time out
+
+
+
+
+
+
+
