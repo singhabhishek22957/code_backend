@@ -10,3 +10,4 @@ day one :
 6. crash crouse HTTP
 7. Guid for Router and controller with debugging 
 8. Register controller 
+9. use postman and debug code 
