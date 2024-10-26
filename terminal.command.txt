@@ -1,0 +1,375 @@
+    at finalizeResolution (node:internal/modules/esm/resolve:326:11)
+    at moduleResolve (node:internal/modules/esm/resolve:945:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1153:11)
+    at nextResolve (node:internal/modules/esm/loader:163:28)
+    at ESMLoader.resolve (node:internal/modules/esm/loader:838:30)
+    at ESMLoader.getModuleJob (node:internal/modules/esm/loader:424:18)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:77:40)
+    at link (node:internal/modules/esm/module_job:76:36) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v18.14.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node -r dotenv/config --experimental-json-modules src/index.js`
+node:internal/errors:490
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\singh\OneDrive\Desktop\MCA\youtube\chai-end-backend\src\constants\' imported from C:\Users\singh\OneDrive\Desktop\MCA\youtube\chai-end-backend\src\db\index.js
+    at new NodeError (node:internal/errors:399:5)
+    at finalizeResolution (node:internal/modules/esm/resolve:326:11)
+    at moduleResolve (node:internal/modules/esm/resolve:945:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1153:11)
+    at nextResolve (node:internal/modules/esm/loader:163:28)
+    at ESMLoader.resolve (node:internal/modules/esm/loader:838:30)
+    at ESMLoader.getModuleJob (node:internal/modules/esm/loader:424:18)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:77:40)
+    at link (node:internal/modules/esm/module_job:76:36) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v18.14.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node -r dotenv/config --experimental-json-modules src/index.js`
+Error:  MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (C:\Users\singh\OneDrive\Desktop\MCA\youtube\chai-end-backend\node_modules\mongoose\lib\connection.js:909:11)
+    at NativeConnection.openUri (C:\Users\singh\OneDrive\Desktop\MCA\youtube\chai-end-backend\node_modules\mongoose\lib\connection.js:860:11)
+    at async connectDB (file:///C:/Users/singh/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/db/index.js:9:32) {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster0-shard-00-00.vuk5u.mongodb.net:27017' => [ServerDescription],
+      'cluster0-shard-00-01.vuk5u.mongodb.net:27017' => [ServerDescription],
+      'cluster0-shard-00-02.vuk5u.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-ilfr21-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node -r dotenv/config --experimental-json-modules src/index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node -r dotenv/config --experimental-json-modules src/index.js`
+Error:  MongoServerError: bad auth : authentication failed
+    at Connection.sendCommand (C:\Users\singh\OneDrive\Desktop\MCA\youtube\chai-end-backend\node_modules\mongodb\lib\cmap\connection.js:289:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (C:\Users\singh\OneDrive\Desktop\MCA\youtube\chai-end-backend\node_modules\mongodb\lib\cmap\connection.js:312:26)
+    at async continueScramConversation (C:\Users\singh\OneDrive\Desktop\MCA\youtube\chai-end-backend\node_modules\mongodb\lib\cmap\auth\scram.js:131:15)
+    at async executeScram (C:\Users\singh\OneDrive\Desktop\MCA\youtube\chai-end-backend\node_modules\mongodb\lib\cmap\auth\scram.js:80:5)
+    at async ScramSHA1.auth (C:\Users\singh\OneDrive\Desktop\MCA\youtube\chai-end-backend\node_modules\mongodb\lib\cmap\auth\scram.js:39:16)
+    at async performInitialHandshake (C:\Users\singh\OneDrive\Desktop\MCA\youtube\chai-end-backend\node_modules\mongodb\lib\cmap\connect.js:104:13)
+    at async connect (C:\Users\singh\OneDrive\Desktop\MCA\youtube\chai-end-backend\node_modules\mongodb\lib\cmap\connect.js:24:9) {
+  errorResponse: {
+    ok: 0,
+    errmsg: 'bad auth : authentication failed',
+    code: 8000,
+    codeName: 'AtlasError'
+  },
+  ok: 0,
+  code: 8000,
+  codeName: 'AtlasError',
+  connectionGeneration: 0,
+  [Symbol(errorLabels)]: Set(2) { 'HandshakeError', 'ResetPool' }
+}
+[nodemon] app crashed - waiting for file changes before starting...
+
+ *  History restored 
+
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ 
+ *  History restored 
+
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ 
+ *  History restored 
+
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ 
+ *  History restored 
+
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   package-lock.json
+        modified:   package.json
+        modified:   readme.md
+        modified:   src/constants.js
+        modified:   src/index.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/db/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ git add .
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ git commit -m "Conection mongoDB"
+[main dad587b] Conection mongoDB
+ 6 files changed, 1164 insertions(+), 18 deletions(-)
+ create mode 100644 src/db/index.js
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ git push
+Enumerating objects: 17, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 14.44 KiB | 7.22 MiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/singhabhishek22957/code_backend.git
+   1968b68..dad587b  main -> main
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ npm i cookie-parser cors 
+(node:21572) ExperimentalWarning: CommonJS module C:\Program Files\nodejs\node_modules\npm\node_modules\debug\src\node.js is loading ES Module C:\Program Files\nodejs\node_modules\npm\node_modules\supports-color\index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+
+added 4 packages, and audited 123 packages in 2s
+
+20 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ cd ./src/utils/
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/utils (main)
+$ touch asyncHandler.js
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/utils (main)
+$ touch apiError.js
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/utils (main)
+$ touch ApiResponse.js
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/utils (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../package-lock.json
+        modified:   ../../package.json
+        modified:   ../../readme.md
+        modified:   ../app.js
+        modified:   ../index.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/utils (main)
+$ git add .
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/utils (main)
+$ git commit -m "working on use middlewares , error calss js and express both "
+[main a9025c4] working on use middlewares , error calss js and express both
+ 3 files changed, 59 insertions(+)
+ create mode 100644 src/utils/ApiError.js
+ create mode 100644 src/utils/ApiResponse.js
+ create mode 100644 src/utils/asyncHandler.js
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/utils (main)
+$ git push 
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.01 KiB | 344.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/singhabhishek22957/code_backend.git
+   dad587b..a9025c4  main -> main
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/utils (main)
+$ cd ..
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src (main)      
+$ ls
+app.js  constants.js  controllers/  db/  index.js  middlewares/  models/  routes/  utils/
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src (main)      
+$ git status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../package-lock.json
+        modified:   ../package.json
+        modified:   ../readme.md
+        modified:   app.js
+        modified:   index.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src (main)      
+$ git add .
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src (main)      
+$ git commit -m "Wroking on use middlewares error class in js and express in utils folder"
+[main d493839] Wroking on use middlewares error class in js and express in utils folder
+ 2 files changed, 46 insertions(+), 7 deletions(-)
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src (main)      
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 927 bytes | 463.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/singhabhishek22957/code_backend.git
+   a9025c4..d493839  main -> main
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/models (main)    
+$ touch user.models.js
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/models (main)  
+$ touch user.models.js
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/models (main)  
+$ touch video.model.js
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src/models (main)  
+$ cd ..
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend/src (main)
+$ cd ..
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ ls
+node_modules/  package.json  package-lock.json  public/  readme.md  src/
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ npm i mongoose-aggregate-paginate-v2
+(node:19668) ExperimentalWarning: CommonJS module C:\Program Files\nodejs\node_modules\npm\node_modules\debug\src\node.js is loading ES Module C:\Program Files\nodejs\node_modules\npm\node_modules\supports-color\index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time 
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+added 1 package, and audited 124 packages in 6s
+
+20 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ ls
+node_modules/  package.json  package-lock.json  public/  readme.md  src/
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ npm i bcrypt jsonwebtoken 
+(node:2216) ExperimentalWarning: CommonJS module C:\Program Files\nodejs\node_modules\npm\node_modules\debug\src\node.js is loading ES Module C:\Program Files\nodejs\node_modules\npm\node_modules\supports-color\index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time 
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+npm warn deprecated gauge@3.0.2: This package is no longer supported.
+
+added 66 packages, and audited 190 packages in 26s
+
+23 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   package-lock.json
+        modified:   package.json
+        modified:   readme.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/models/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ git add .
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ git commit -m "add user and video model"
+[main 65e7546] add user and video model
+ 5 files changed, 883 insertions(+), 5 deletions(-)
+ create mode 100644 src/models/user.models.js
+ create mode 100644 src/models/video.models.js
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ git push
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 9.86 KiB | 3.29 MiB/s, done.
+Total 9 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/singhabhishek22957/code_backend.git
+   d493839..65e7546  main -> main
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ ls
+node_modules/  package.json  package-lock.json  public/  readme.md  src/
+
+singh@Abhisheks-Devices MINGW64 ~/OneDrive/Desktop/MCA/youtube/chai-end-backend (main)
+$ npm i cloudinary multer
+(node:5388) ExperimentalWarning: CommonJS module C:\Program Files\nodejs\node_modules\npm\node_modules\debug\src\node.js is loading ES Module C:\Program Files\nodejs\node_modules\npm\node_modules\supports-color\index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time 
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm warn deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+npm warn deprecated
+npm warn deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)    
+
+added 19 packages, and audited 209 packages in 2s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+singh@A

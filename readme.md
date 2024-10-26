@@ -6,3 +6,4 @@ day one :
 2. database connection 
 3. Custom api response error handling 
 4. user and  video model with hooks and JWT;     
+5. file upload 
