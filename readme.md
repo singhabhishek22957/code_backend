@@ -13,3 +13,4 @@ day one :
 9. use postman and debug code 
 10. user login and logout 
 11. sub pipelines 
+12. Add models 
