@@ -12,3 +12,4 @@ day one :
 8. Register controller 
 9. use postman and debug code 
 10. user login and logout 
+11. sub pipelines 
